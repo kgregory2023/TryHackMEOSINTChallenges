@@ -17,6 +17,9 @@ Used `exiftool` on `WindowsXP.jpg` to gather GPS metadata:
 - **Longitude**: `2° 15' 1.33" W`
 - Image credited to **OWoodflint**
 
+![1](https://github.com/user-attachments/assets/4f752775-7e9e-42e2-a69a-ad39590f1a9e)
+
+
 ### 🌐 Twitter Enumeration:
 - Found Twitter handle `@OWoodflint`
 - Identified BSSID: `B4:5D:50:AA:86:41`
