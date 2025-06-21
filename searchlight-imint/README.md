@@ -44,7 +44,7 @@ This room introduces the fundamentals of **IMINT (Image Intelligence)** and **GE
 - **Building**: Vancouver International Airport  
 - **Country**: Canada  
 - **City**: Richmond  
-> Google “YVR Connects” and verify terminal using interior images.
+> Googled “YVR Connects” and verify terminal using interior images.
 
 ---
 
@@ -62,7 +62,7 @@ This room introduces the fundamentals of **IMINT (Image Intelligence)** and **GE
 ### 🥪 Task 6: Restaurant Reverse Image  
 - **Restaurant**: `Katz's Deli`  
 - **Editor Name**: `Andrew Knowlton`  
-> Used Yandex and article matching to ID restaurant and related story.
+> Used Google Reverse Image Search and article matching to ID restaurant and related story.
 
 ---
 
@@ -77,7 +77,7 @@ This room introduces the fundamentals of **IMINT (Image Intelligence)** and **GE
 - **Statue**: `Lady Justice`  
 - **Location**: `Alexandria, Virginia`  
 - **Opposite Building**: `The Westin Alexandria Old Town`  
-> Reverse image + video frame analysis (Yandex + Google Street View).
+> Reverse image + video frame analysis Google Street View.
 
 ---
 
