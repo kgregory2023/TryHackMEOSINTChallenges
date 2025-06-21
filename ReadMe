@@ -1,54 +1,51 @@
-Type: Cybersecurity Challenge (Open-Source Intelligence)
-Tools Used: ExifTool, Google Dorking, Social Media Analysis, GitHub, WordPress, Online Geolocation tools
+# TryHackMe - OhSINT Room 🕵️‍♂️  
+**Category:** Open Source Intelligence (OSINT)  
+**Platform:** TryHackMe  
+**Link:** [https://tryhackme.com/room/ohsint](https://tryhackme.com/room/ohsint)  
+**Tools Used:** ExifTool, Google, GitHub, WordPress, Twitter, Maps, Browser Dev Tools
 
-Objective:
-To perform an OSINT (Open Source Intelligence) investigation on a fictional target by collecting and analyzing publicly available information to piece together a digital footprint. The goal was to identify personal details, location, social media handles, Wi-Fi details, and project affiliations.
+## 🧠 Objective
+Use OSINT techniques to discover information from a single image file and trace the target’s online identity across multiple platforms.
 
-Process & Findings:
-Metadata Extraction (ExifTool):
+---
 
-Analyzed the provided image WindowsXP.jpg using exiftool.
+## 🔍 Walkthrough Summary
 
-Extracted GPS coordinates embedded in the image metadata:
+### 📸 Metadata Extraction:
+Used `exiftool` on `WindowsXP.jpg` to gather GPS metadata:
+- **Latitude**: `54° 17' 41.27" N`
+- **Longitude**: `2° 15' 1.33" W`
+- Image credited to **OWoodflint**
 
-Latitude: 54°17'41.27"N
+### 🌐 Twitter Enumeration:
+- Found Twitter handle `@OWoodflint`
+- Identified BSSID: `B4:5D:50:AA:86:41`
+- Tweet hinted at open WiFi access: “From my house I can get free WiFi ;D”
 
-Longitude: 2°15'1.33"W
+### 🌍 Geolocation:
+- Input GPS coordinates to map: Located user in the UK region.
 
-Location Analysis:
+### 📝 Blog OSINT:
+- Discovered [owoodflint.wordpress.com](https://owoodflint.wordpress.com)
+- Post says: “I’m in New York right now...”
+- Inspected source code: Hidden message found in white font – `pennYDr0pper.!`
 
-Entered GPS data into mapping tools to triangulate the approximate location of the target in the UK.
+### 💻 GitHub Enumeration:
+- GitHub repo: [OWoodfl1nt/people_finder](https://github.com/OWoodfl1nt/people_finder)
+- GitHub Bio mentions open source work
+- Email found: `OWoodflint@gmail.com`
 
-Social Media OSINT:
+---
 
-Discovered the Twitter handle @OWoodflint from metadata clues.
+## 🧩 Skills Demonstrated
+- Metadata analysis using `ExifTool`
+- Correlating usernames across platforms
+- Social media footprinting
+- Analyzing hidden HTML source
+- Passive WiFi reconnaissance from BSSID
+- Recon chaining and logical deduction
 
-Reviewed the Twitter feed to find a BSSID (B4:5D:50:AA:86:41) and a reference to free Wi-Fi.
+---
 
-Blog & Online Presence:
-
-Located a WordPress blog authored by owoodflint.
-
-Blog stated the author was in New York at the time of posting.
-
-Used developer tools to uncover hidden text in HTML: “pennYDr0pper.1” – possibly a password or alias.
-
-GitHub Enumeration:
-
-Found the GitHub repository OWoodfl1nt/people_finder.
-
-Identified full name as Oliver Woodflint, interests, and another email: OWoodflint@gmail.com.
-
-Key Skills Demonstrated:
-Metadata forensics (ExifTool)
-
-Social media enumeration
-
-Use of developer tools to analyze hidden site content
-
-Correlation of usernames and digital identities across platforms
-
-Critical thinking and chain-of-evidence correlation in OSINT
-
-Outcome:
-Successfully built a comprehensive profile on the target using only publicly available information. This lab reinforces core OSINT principles used in cyber threat intelligence, red teaming, and digital forensics.
+## 🏁 Result
+Identified the individual behind the alias `OWoodflint`, mapped their activity geographically, and discovered cross-platform identities using OSINT.
