@@ -24,19 +24,29 @@ Used `exiftool` on `WindowsXP.jpg` to gather GPS metadata:
 - Found Twitter handle `@OWoodflint`
 - Identified BSSID: `B4:5D:50:AA:86:41`
 - Tweet hinted at open WiFi access: “From my house I can get free WiFi ;D”
+![2](https://github.com/user-attachments/assets/8ac3a983-cec1-4af8-b590-063bde98e9ba)
+
 
 ### 🌍 Geolocation:
 - Input GPS coordinates to map: Located user in the UK region.
+![7](https://github.com/user-attachments/assets/3e804588-8207-448b-a445-3e965f028eee)
+
 
 ### 📝 Blog OSINT:
 - Discovered [owoodflint.wordpress.com](https://owoodflint.wordpress.com)
 - Post says: “I’m in New York right now...”
 - Inspected source code: Hidden message found in white font – `pennYDr0pper.!`
+![3](https://github.com/user-attachments/assets/9209f969-eb7c-4be6-8936-ad3e15cd895a)
+![6](https://github.com/user-attachments/assets/a8651299-1ad0-46c9-8802-7d3331bca68b)
+
+
 
 ### 💻 GitHub Enumeration:
 - GitHub repo: [OWoodfl1nt/people_finder](https://github.com/OWoodfl1nt/people_finder)
 - GitHub Bio mentions open source work
 - Email found: `OWoodflint@gmail.com`
+![4](https://github.com/user-attachments/assets/08862cb8-6028-480d-beeb-5e9fdad900b7)
+
 
 ---
 
