@@ -1,5 +1,5 @@
 
-# 🌸 TryHackMe: Sakura Room — OSINT Challenge Walkthrough
+# 🌸 TryHackMe: Sakura Room — OSINT Challenge 
 
 This challenge explores a range of IMINT/GEOINT (Image and Geospatial Intelligence) techniques used in OSINT investigations. Below is a step-by-step breakdown of how each image was analyzed and what clues were derived from them.
 
